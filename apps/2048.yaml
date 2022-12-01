@@ -25,9 +25,9 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: 2048-service
+  name: game-service
   labels:
-    app: 2048-service
+    app: game-service
 spec:
   ports:
   - name: 2048-game
