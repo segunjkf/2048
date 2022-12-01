@@ -15,7 +15,7 @@ metadata:
   name: 2048-game
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 1m0s
   path: ./apps
   prune: true
   sourceRef:
